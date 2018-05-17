@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Roboto','Open Sans',"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+}
+a {
+    color: #3873a3;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:visited {
+    color: #3873a3;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+	color: #CC4E5C;
+}	
+
+h1 {
+	font-family: 'Gentium Book Basic','Open Sans',"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+	font-weight: 700; 
+	font-size: 58pt;
+	margin: auto;
+	margin-top: 100px;
+	width: 600px;	
+	text-align: center;
+}	
+#bio {
+	font-size: 18pt;
+	margin: auto;
+	margin-top: 40px;
+	width: 660px;
+	text-align: left;
+	line-height: 150%;
+	color: #455565;
+}	
+#intro {
+	font-size: 18pt;
+	margin: auto;
+	margin-top: 40px;
+	width: 700px;
+	text-align: left;
+	line-height: 150%;
+}
+#bar {
+    background-color: #3873a3;
+    height: 14px;
+    width: 100%;
+}
+#icons {
+	text-align: justify;
+	display: block;
+	width: 540px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}	
+#icons > div {
+	width: 100px; 
+	display: inline-block;
+	vertical-align: top;
+}	
+#icons:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+}	
+#labels {
+	text-align: justify;
+	color: #3873a3;
+	display: block;
+	width: 537px;
+	margin: auto;
+	margin-top: 0px;
+}	
+#labels > div {
+	width: 100px; 
+	display: inline-block;
+	vertical-align: top;
+}	
+#labels:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+}	
+#contactInfo {
+	text-align: justify;
+	font-size: 18pt;
+	color: #3873a3;
+	display: block;
+	width: 537px;
+	margin: auto;
+	margin-top: 40px;
+}	
+#contactInfo > div {
+	width: 100px; 
+	display: inline-block;
+	vertical-align: top;
+}	
+#contactInfo:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+}	
+#back {
+	font-size: 18pt;
+	margin: auto;
+	margin-top: 30px;
+	width: 660px;
+	text-align: left;
+	line-height: 150%;
+	color: #455565;
+}	
+a.back {
+	text-decoration: underline;
+}	
+#github {
+	color: #3873a3;
+	width: 9px;
+}	
+::selection {
+  background: #F99E9E; 
+}
+::-moz-selection {
+  background: #F99E9E; 
+}
